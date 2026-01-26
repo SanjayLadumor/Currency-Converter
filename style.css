@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    align-content: center;
+    justify-items: center;
+}
+
+.all {
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    align-self: center;
+    justify-items: center;
+    padding: 10px 10px 10px 10px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.box h1 {
+    /* color: #333; */
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: #1e293b;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 10px 0 25px 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+    position: relative;
+    cursor: default;
+}
+
+
+.box h1::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
+
+.amount {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #333;
+}
+
+.amount p{
+    cursor:default;
+}
+
+.amount input {
+    height: 5vh;
+}
+
+.all .dropdown form .converterbox {
+    display: flex;
+    gap: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.all .dropdown form .converterbox .from p{
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4b5563;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+    cursor: default;
+}
+
+.all .dropdown form .converterbox .to p{
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4b5563; 
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+    cursor: default;
+}
+
+.dropdown form .from .select-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown form .from .select-container img {
+    position: absolute;
+    left: 495px;
+    max-width: 2.5rem;
+}
+
+.dropdown form .from .select-container select {
+    padding-left: 50px;
+    height: 2.5rem;
+    width: 6.5rem;
+}
+
+.dropdown form .converter img {
+    max-width: 2rem;
+}
+
+.dropdown form .to .select-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown form .to .select-container img {
+    position: absolute;
+    left: 691px;
+    max-width: 2.5rem;
+}
+
+.dropdown form .to .select-container select {
+    padding-left: 50px;
+    height: 2.5rem;
+    width: 6.5rem;
+}
+
+.textandbtn {
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.exbutton button {
+    height: 2rem;
+    background-color: #1e293b;
+    color: white;
+    width:20vw;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.exbutton button:hover {
+    background-color: #334155;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.exbutton button:active {
+    transform: translateY(0);
+}
+
+.conversion {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1e293b;
+    padding: 10px 15px;
+    margin: 15px 0;
+    background-color: #f1f5f9;
+    border-radius: 8px;
+    border-left: 5px solid #764ba2;
+    text-align: center;
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+    cursor: default;
+}
